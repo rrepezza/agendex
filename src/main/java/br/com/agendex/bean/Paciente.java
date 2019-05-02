@@ -17,6 +17,7 @@ public class Paciente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_paciente")
 	private Integer id;
+	
 	private String cpf;
 	private String nomeCompleto;
 	private String nomeSocial;
